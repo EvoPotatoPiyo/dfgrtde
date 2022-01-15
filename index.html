@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://www.w3schools.com/lib/w3.js"></script>   
+    <script src="js/main-script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+    <div class="container-fluid " style="padding:0;">
+       
+        <div class="row">
+
+            <div class="col-md-12" style="padding:0;">
+
+                <div w3-include-html="header.html"></div>
+            </div>
+        </div>  
+
+        <div class="col-md-12 bg-image"
+             style="background-image: url('images/CSF2.png');
+            height: 150vh; padding:0;">
+            <br />
+            <br />
+            <br />
+            <br />
+            
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/FED2.png"  style="opacity:55%">
+                </div>
+
+                <div class="col-md-4" id="text">
+                    <h1 id="head">Cybersecurity</h1>
+                    <p id="content">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <br />
+                    <a href="#">
+                        <h2 id="view">View More</h2>
+                    </a>
+                    
+                </div>
+                <div class="col-md-1" id="button">
+                    <button id="1" type="button" onclick="bt1()" style="background:white; color:black">1</button>
+                    
+                    <button id="2" type="button" onclick="bt2()" >2</button>
+                    
+                    <button id="3" type="button" onclick="bt3()" >3</button>
+                </div>
+            </div>
+            
+        </div>
+
+        
+
+        <div class="row">
+         
+            <div class="col-sm-12" style="padding:0">
+             
+                <div w3-include-html="footer.html"></div>
+                
+            </div>
+
+        </div>
+     </div>   
+    
+
+
+    
+    <script>
+        w3.includeHTML();
+    </script>
+</body>
+</html>
